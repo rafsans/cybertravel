@@ -119,7 +119,7 @@ html {
     cursor: pointer;
 }
 
-.search-box .search-tabs .active{
+.search-box .search-tabs .active {
     width: 100%;
     background-color: #e02d2d;
     color: white;
@@ -127,7 +127,7 @@ html {
     border-radius: inherit;
 }
 
-.search-container .search-menu{
+.search-container .search-menu {
     background-color: white;
     width: 1000px;
     height: 150px;
@@ -197,4 +197,142 @@ html {
     -moz-transform: translate(-50%, -50%) scale(1.5);
     -o-transform: translate(-50%, -50%) scale(1.5);
     transform: translate(-50%, -50%) scale(1.5);
+}
+
+.recomended {
+    background-color: #e9e9e9;
+    padding-bottom: 3rem;
+    height: max-content;
+}
+
+.recomended .container {
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recomended .container .text {
+    padding: 2rem 0rem;
+}
+
+.recomended .container .text h1 {
+    font-weight: bold;
+}
+
+.recomended .container ul {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.recomended .container .list-item {
+    margin: 8px;
+    padding: 0.5rem 1rem;
+    list-style: none;
+}
+
+.recomended .container .list-item a {
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: medium;
+    color: rgb(255, 255, 255);
+}
+
+.recomended .container .item-active {
+    background: linear-gradient(
+        70deg,
+        rgba(40, 0, 0, 1) 0%,
+        rgba(142, 0, 0, 1) 100%
+    );
+    border-radius: 4px;
+}
+
+.recomended .wrapper {
+    background: linear-gradient(190deg, rgb(119, 0, 0) 0%, rgb(218, 2, 2) 100%);
+    width: max-content;
+    border-radius: 4px;
+}
+
+.recomended .wrapper-card {
+    padding-top: 4rem;
+}
+
+.footer {
+    background: linear-gradient(
+        190deg,
+        rgba(40, 0, 0, 1) 0%,
+        rgb(116, 1, 1) 120%
+    );
+    height: 311px;
+}
+
+.footer .logo {
+    /* background-color: aqua; */
+    width: max-content;
+}
+
+.footer .logo img {
+    width: 300px;
+}
+
+.footer .office {
+    color: white;
+    padding: 2.5rem 0rem;
+}
+
+.footer .office h3 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.footer .office .text {
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+.footer .office .email {
+    margin-bottom: 1.5rem;
+}
+
+.footer .office .phone-number {
+    font-weight: bold;
+}
+
+.footer .company {
+    color: white;
+    padding: 2.5rem 0rem;
+}
+
+.footer .company h3 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.footer .company ul {
+    list-style: none;
+    padding: 0px 1rem;
+    margin: 0;
+}
+
+.footer .company li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: lighter;
+    color: white;
+}
+
+.footer .company li a:hover {
+    color: #cfcfcf;
+    border-bottom: solid white 1px;
+}
+
+.footer .newsletter {
+    color: white;
+    padding: 2.5rem 0rem;
+}
+
+.footer .newsletter h3 {
+    font-weight: bold;
+    margin-bottom: 1rem;
 }

@@ -95,8 +95,165 @@
     {{-- end top destinations --}}
 
     {{-- recomended for you --}}
+    <div class="recomended">
+        <div class="container d-flex flex-column">
+            <div class="text">
+                <h1>Recomended For You</h1>
+            </div>
+            <div class="wrapper">
+                <div class="d-flex justify-content-center align-content-center">
+                    <ul class="d-flex justify-content-center">
+                        <li class="list-item item-active">
+                            <a href="">Hotel</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="">Tour</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="">Activity</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="">Restaurant</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="wrapper-card">
+                <div class="row d-flex justify-content-center">
+                    <div class="card col-md-4 m-2" style="width: 18rem;">
+                        <img class="card-img-top" src="..." alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card col-md-4 m-2" style="width: 18rem;">
+                        <img class="card-img-top" src="..." alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of
+                                the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card col-md-4 m-2" style="width: 18rem;">
+                        <img class="card-img-top" src="..." alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of
+                                the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card col-md-4 m-2" style="width: 18rem;">
+                        <img class="card-img-top" src="..." alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of
+                                the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card col-md-4 m-2" style="width: 18rem;">
+                        <img class="card-img-top" src="..." alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of
+                                the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card col-md-4 m-2" style="width: 18rem;">
+                        <img class="card-img-top" src="..." alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of
+                                the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card col-md-4 m-2" style="width: 18rem;">
+                        <img class="card-img-top" src="..." alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of
+                                the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card col-md-4 m-2" style="width: 18rem;">
+                        <img class="card-img-top" src="..." alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of
+                                the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     {{-- end recomended for you --}}
 
+    {{-- footer --}}
+    <div class="footer d-flex justify-content-center ">
+        <div class="logo col-md-3">
+            <a href="#"><img src="{{ asset('assets/img/Logo.png') }}" alt="Cybertravel"></a>
+        </div>
+        <div class="office col-md-3">
+            <h3>Office</h3>
+            <div class="text">
+                <p class="col-md-8">Perkantoran Pemda Provinsi Bengkulu. 
+                    JL. Pembangunan No. 01, Padang Harapan, Kota Bengkulu 38225</p>
+            </div>
+            <div class="email">
+                <p>kontak@cyberstravel.id</p>
+            </div>
+            <div class="phone-number">
+                <p>+62877-5812-3440</p>
+            </div>
+        </div>
+        
+        <div class="company col-md-3">
+            <h3>Company Links</h3>
+            <ul>
+                <li>
+                    <a href="">Beranda</a>
+                </li>
+                <li>
+                    <a href="">Wisata</a>
+                </li>
+                <li>
+                    <a href="">Wilayah</a>
+                </li>
+                <li>
+                    <a href="">Tentang Kami</a>
+                </li>
+                <li>
+                    <a href="">Kontak</a>
+                </li>
+                <li>
+                    <a href="">Review</a>
+                </li>
+            </ul>
+        </div>
+        <div class="newsletter col-md-3">
+            <h3>Newsletter</h3>
+            <p>Cybers Travel adalah platform pemesanan dan pencarian tempat liburan anda dengan banyak fasilitas pilihan wisata yang menarik dari seluruh penjuru Indonesia.</p>
+        </div>
+    </div>
+    {{-- end footer --}}
 </body>
 
 </html>
