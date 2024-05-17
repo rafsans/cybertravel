@@ -1,0 +1,227 @@
+*,
+html {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #280000;
+    height: 120px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .navbar-brand {
+    margin-left: 50px;
+}
+
+.navbar .navbar-brand img {
+    height: 10rem;
+}
+.navbar .collapse {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .collapse .nav-item a {
+    padding-right: 50px;
+    color: #ffffff;
+    transition: 0.2s;
+}
+
+.navbar .collapse .nav-item a:hover {
+    color: #de7c5a;
+}
+
+.navbar .collapse .nav-item .active {
+    color: #de7c5a;
+}
+
+.navbar .button-cust {
+    margin-right: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar .button-cust button {
+    background-color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+    width: 8rem;
+    border: none;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.navbar .button-cust button:hover {
+    background-color: #f32121;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+    width: 8rem;
+    border: none;
+    border-radius: 6px;
+}
+
+.banner .text {
+    position: absolute;
+    font-weight: bold;
+    font-size: 100px;
+    margin: 15rem 8rem;
+    background: -webkit-linear-gradient(
+        -70deg,
+        rgb(214, 214, 214) 0%,
+        rgba(93, 93, 93, 0.8407738095238095) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner img {
+    display: absolute;
+    width: 100%;
+    height: 45rem;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.search {
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.search .container {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search .container .search-nav {
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.search .container .search-nav .search-item {
+    background-color: #f32121;
+    border-radius: 3px;
+    width: 10rem;
+    list-style: none;
+    color: rgb(207, 207, 207);
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.search .container .search-nav .search-item:hover {
+    background-color: #9e1111;
+    color: rgb(255, 255, 255);
+}
+
+.search .card {
+    position: absolute;
+    margin-top: 8.3rem;
+    background-color: white;
+    border-radius: 8px;
+    padding: 5px 5px;
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+.search .card .name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search .card .name li {
+    margin: 0px 20px;
+}
+
+.search .container .search-menu {
+    background-color: aqua;
+    padding: 20px;
+}
+
+.top-destinations {
+    margin: 4rem 20rem;
+    display: flex;
+    justify-content: center;
+}
+
+.top-destinations .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-destinations .wrapper button {
+    background-color: white;
+    border: solid #9e1111 2px;
+    margin-right: 1rem;
+    width: 8rem;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.top-destinations .wrapper button:hover {
+    background-color: #9e1111;
+    border: solid #9e1111 2px;
+    color: white;
+}
+
+.top-destinations h2 {
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+.top-destinations .card-wrapper {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.top-destinations .card {
+    position: relative;
+    overflow: hidden;
+    width: 250px;
+    height: 450px;
+    margin: 0px 15px;
+}
+
+.top-destinations .card-wrapper .active {
+    width: 350px;
+    height: 450px;
+    margin: 0px 15px;
+}
+
+.top-destinations img {
+    max-width: inherit;
+    position: absolute;
+    filter: brightness(50%);
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%) scale(1.5);
+    -moz-transform: translate(-50%, -50%) scale(1.5);
+    -o-transform: translate(-50%, -50%) scale(1.5);
+    transform: translate(-50%, -50%) scale(1.5);
+}
