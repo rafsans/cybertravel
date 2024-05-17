@@ -11,7 +11,7 @@
 
 <body>
     {{-- navbar --}}
-    <nav class="navbar navbar-expand-sm">
+    <nav class="navbar navbar-expand-lg">
         <a href="#" class="navbar-brand"><img src="{{ asset('assets/img/Logo.png') }}" alt="Cybertravel"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,9 +38,9 @@
                     <a class="nav-link" href="#">Review</a>
                 </li>
             </ul>
-        </div>
-        <div class="button-cust">
-            <button>Login</button>
+            <div class="button-cust">
+                <button>Login</button>
+            </div>
         </div>
     </nav>
     {{-- end navbar --}}
@@ -53,29 +53,24 @@
     {{-- endbanner --}}
 
     {{-- search --}}
-    <div class="search">
-        <div class="container">
-            <ul class="search-nav">
-                <li class="search-item">Hotel</li>
-                <li class="search-item">Tour</li>
-                <li class="search-item">Activity</li>
-                <li class="search-item">Restaurant</li>
-            </ul>
-        </div>
-        <div class="card">
-            <ul class="name">
-                <li>tes</li>
-            </ul>
-            <ul class="field">
-                <input type="text">
-            </ul>
+    <div class="search-container">
+        <div class="search-box">
+            <div class="search-tabs">
+                <span class="search-tab p-5 active">Hotel</span>
+                <span class="search-tab p-5 ">Tour</span>
+                <span class="search-tab p-5 ">Activity</span>
+                <span class="search-tab p-5">Restaurant</span>
+            </div>
+            <div class="search-menu">
+
+            </div>
         </div>
     </div>
     {{-- end search --}}
 
     {{-- top destinations --}}
     <div class="top-destinations">
-        <div class="col-md-10">
+        <div class="col-lg-10 col-6">
             <div class="wrapper">
                 <h2>Top Destinations</h2>
                 <button class="btn">See More</button>
