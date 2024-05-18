@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home - Cybers Travel</title>
-    <link rel="stylesheet" href="{{ asset('build/assets/app-D-6KuuWz.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-    {{-- @vite(['resources/sass/app.scss', 'resources/js/app.js', 'resources/css/app.css']) --}}
+    <title>{{ $title }}- Cybers Travel</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    {{-- <link rel="stylesheet" href="{{ asset('build/assets/app-D-6KuuWz.css') }}"> --}}
+    {{-- <link rel="stylesheet" href="{{ asset('css/app.css') }}"> --}}
+    @vite(['resources/sass/app.scss', 'resources/js/app.js', 'resources/css/app.css'])
 </head>
 
 <body>
@@ -21,7 +22,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="{{ url('/') }}">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Wisata</a>
@@ -33,7 +34,7 @@
                     <a class="nav-link" href="#">Tentang Kami</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Kontak</a>
+                    <a class="nav-link" href="{{ url('/contact') }}">Kontak</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Review</a>
@@ -96,5 +97,5 @@
     </div>
 </div>
 </body>
-<script src="{{ asset('build/assets/app-CI1Bgkaz.js') }}"></script>
+{{-- <script src="{{ asset('build/assets/app-CI1Bgkaz.js') }}"></script> --}}
 </html>

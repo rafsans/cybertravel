@@ -1,5 +1,5 @@
 @extends('Layouts.home')
-
+@section('title', 'Home')
 @section('content')
 {{-- banner --}}
 <div class="banner">
