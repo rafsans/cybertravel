@@ -4,7 +4,7 @@
     <div class="container container-contact d-flex flex-row justify-content-between">
         <div class="card contact">
             <div class="card-body ">
-                <h2 class="mb-1">INFORMASI KONTAK</h2>
+                <h2 class="mb-1">Informasi Kontak</h2>
                 <div class="wrapper-text">
                     <i class="bi bi-telephone"></i>
                     <div class="text">

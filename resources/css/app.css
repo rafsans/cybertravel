@@ -136,7 +136,7 @@ html {
 }
 
 .top-destinations {
-    margin: 8rem 20rem;
+    /* margin: 8rem 20rem; */
     display: flex;
     justify-content: center;
 }
@@ -258,7 +258,6 @@ html {
 
 .recomended .wrapper-card {
     padding-top: 4rem;
-    align-items: flex-start;
 }
 
 .recomended .wrapper-card .row .card img {
@@ -266,6 +265,10 @@ html {
     border-radius: 4px;
     object-fit: cover;
     object-position: 50% 50%;
+}
+
+.recomended .wrapper-card .row .card {
+    width: 18rem;
 }
 
 .recomended .wrapper-card .row .card .card-body {
@@ -378,7 +381,7 @@ html {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
 }
 
-.container-contact{
+.container-contact {
     margin-top: 5rem;
     margin-bottom: 10rem;
 }
@@ -401,11 +404,11 @@ html {
 }
 
 .contact .card-body .wrapper-text .text {
-    padding-top: .5rem;
+    padding-top: 0.5rem;
 }
 .contact .card-body .wrapper-text i {
     color: #e25f34;
-    padding-top: .5rem;
+    padding-top: 0.5rem;
     font-size: 18px;
     margin-right: 0.5rem;
 }
@@ -449,8 +452,34 @@ html {
     height: 8rem;
 }
 
-.message .card-body .input-group .form-control{
+.message .card-body .input-group .form-control {
     outline: none;
     border: 0;
     box-shadow: none;
+}
+
+@media only screen and (max-width: 1400px) {
+    .navbar .button-cust {
+        display: flex;
+        margin-right: 0px;
+        justify-content: center;
+    }
+
+    .recomended .wrapper-card .row .card {
+        width: 15rem;
+    }
+
+    .recomended .wrapper-card .row .card .card-body p {
+        font-size: 12px;
+    }
+    .recomended .wrapper-card .row .card .card-body a {
+        border: solid rgb(116, 1, 1) 1px;
+        height: max-content;
+        font-size: 10px;
+        padding: 0.5rem;
+        text-decoration: none;
+        color: rgb(116, 1, 1);
+        border-radius: 3px;
+        float: right;
+    }
 }

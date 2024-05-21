@@ -7,9 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ $title }}- Cybers Travel</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    {{-- <link rel="stylesheet" href="{{ asset('build/assets/app-D-6KuuWz.css') }}"> --}}
-    {{-- <link rel="stylesheet" href="{{ asset('css/app.css') }}"> --}}
-    @vite(['resources/sass/app.scss', 'resources/js/app.js', 'resources/css/app.css'])
+    <link rel="stylesheet" href="{{ asset('build/assets/app-D-6KuuWz.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    {{-- @vite(['resources/sass/app.scss', 'resources/js/app.js', 'resources/css/app.css']) --}}
 </head>
 
 <body>
@@ -22,7 +22,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="{{ url('/') }}">Home</a>
+                    <a class="nav-link active" aria-current="page" href="{{ url('/') }}">Beranda</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Wisata</a>
@@ -97,5 +97,5 @@
     </div>
 </div>
 </body>
-{{-- <script src="{{ asset('build/assets/app-CI1Bgkaz.js') }}"></script> --}}
+<script src="{{ asset('build/assets/app-CI1Bgkaz.js') }}"></script>
 </html>
