@@ -1,8 +1,7 @@
-@extends('Layouts.home')
-@section('title', 'Contact Us')
+@extends('Layouts.app')
 @section('content')
-    <div class="container container-contact d-flex flex-row justify-content-between">
-        <div class="card contact">
+    <div class="container container-contact d-flex justify-content-center">
+        <div class="card mx-5 contact">
             <div class="card-body ">
                 <h2 class="mb-1">Informasi Kontak</h2>
                 <div class="wrapper-text">
@@ -32,7 +31,7 @@
                 </div>
             </div>
         </div>
-        <div class="card message">
+        <div class="card mx-5 message">
             <div class="card-body">
                 <h2 class="mb-4">Kirim Pesan</h2>
                 <form action="">
